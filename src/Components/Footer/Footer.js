@@ -3,7 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div className="align-middle text-center footer">
             <p>Copyright ©2021 EmperiorTech. All rights reserved.</p>
         </div>
     );
