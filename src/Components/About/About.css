@@ -1,8 +1,17 @@
 .nav{
     background-color: #7db0c4;
     text-align: center;
-    padding: 50px 100px;
+    padding: 50px 200px;
 }
 .pic{
-    width: 50%;
+    width: 100%;
+}
+.story{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+.text{
+    margin-left: 50px;
+    text-align: left;
 }

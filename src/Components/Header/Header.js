@@ -6,8 +6,10 @@ import './Header.css';
 const Header = () => {
     return (
         <div className="header">
-            <img className="logo" src={logo} alt="" />
-            <h1>EmperiorTech</h1>
+            <div className="head">
+                <img className="logo" src={logo} alt="" />
+                <h1>EmperiorTech</h1>
+            </div>
             <nav>
                 <Link to ="/home">Home</Link>
                 <Link to ="/about">About</Link>

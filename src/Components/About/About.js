@@ -19,7 +19,7 @@ const Story = () => {
             <div>
                 <img className="pic" src={picture} alt="" />
             </div>
-            <div>
+            <div className="text">
                 <h1>Our Story</h1>
                 <p>Based primarily in Dhaka, Bangladesh, we harness the strength of our multi-disciplinary teams to craft the perfect solutions for your business, be it online or offline.</p>
                 <p>Operating since 2020, we’ve created new wings from Hasan Group to EmperiorTech. With our experience, we’ve established ourselves as one of the knowing agencies in the region. Our small, flexible, agile, and design-led structures and processes allow us to be highly responsive and innovative.</p>
