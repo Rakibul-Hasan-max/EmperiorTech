@@ -1,5 +1,5 @@
 import React from 'react';
-// import banner from '../../images/banner.png';
+import Services from '../Services/Services';
 import './Home.css';
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
             <hr />
             <p>Make Potential Possible. We are a digitally-led,full-service 360 Degree Creative Agency.</p>
             <button>Contact Us</button>
+            <Services></Services>
         </div>
     );
 };

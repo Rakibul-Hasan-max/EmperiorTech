@@ -38,7 +38,7 @@ const Left = (props) => {
     console.log(props.left);
     const {name, team, price, description, content} =  props.left;
     return (
-        <div>
+        <div className="serv">
             <h2>Name: {name}</h2>
             <p>Team: {team}</p>
             <h5>Price: {price}</h5>
