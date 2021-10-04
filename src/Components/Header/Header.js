@@ -1,13 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../../images/tech.png';
+import './Header.css';
 
 const Header = () => {
     return (
-        <div>
-            <h1>this is header</h1>
-            <button>Home</button>
-            <button>About</button>
-            <button>Services</button>
-            <button>Blogs</button>
+        <div className="header">
+            <img className="logo" src={logo} alt="" />
+            <h1>EmperiorTech</h1>
+            <nav>
+                <Link to ="/home">Home</Link>
+                <Link to ="/about">About</Link>
+                <Link to ="/services">Services</Link>
+                <Link to ="/blogs">Blogs</Link>
+            </nav>
         </div>
     );
 };
