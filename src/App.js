@@ -12,7 +12,6 @@ function App() {
   return (
   <Router>
     <Header></Header>
-    <Footer></Footer>
     <Switch>
       <Route exact path="/">
         <Home></Home>
@@ -33,6 +32,7 @@ function App() {
         <NotFound></NotFound>
       </Route>
     </Switch>
+    <Footer></Footer>
   </Router>
   );
 }

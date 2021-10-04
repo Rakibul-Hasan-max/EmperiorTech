@@ -1,9 +1,10 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => {
     return (
-        <div>
-            <p>EmperiorTech @2021 all right reserved.</p>
+        <div className="footer">
+            <p>Copyright ©2021 EmperiorTech. All rights reserved.</p>
         </div>
     );
 };
