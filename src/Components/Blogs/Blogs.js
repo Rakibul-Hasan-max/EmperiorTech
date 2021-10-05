@@ -24,7 +24,7 @@ const BlogPost = () => {
                     <div className="card-body">
                         <h5 className="card-title">ERP-Solution</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>
+                        <button type="button" class="btn btn-primary">Read more</button>
                     </div>
                     <div className="card-footer">
                         <small className="">Last updated 3 mins ago</small>
@@ -38,7 +38,7 @@ const BlogPost = () => {
                     <div className="card-body">
                         <h5 className="card-title">Tech-HRM</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>
+                        <button type="button" class="btn btn-primary">Read more</button>
                     </div>
                     <div className="card-footer">
                         <small className="">Last updated 10 days ago</small>
@@ -52,7 +52,7 @@ const BlogPost = () => {
                     <div className="card-body">
                         <h5 className="card-title">Billing</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>
+                        <button type="button" class="btn btn-primary">Read more</button>
                     </div>
                     <div className="card-footer">
                         <small className="">Last updated 12 days ago</small>
@@ -66,7 +66,7 @@ const BlogPost = () => {
                     <div className="card-body">
                         <h5 className="card-title">VAT and Tax</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>
+                        <button type="button" class="btn btn-primary">Read more</button>
                     </div>
                     <div className="card-footer">
                         <small className="">Last updated 5 hours ago</small>
@@ -80,7 +80,7 @@ const BlogPost = () => {
                     <div className="card-body">
                         <h5 className="card-title">Accounting</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>
+                        <button type="button" class="btn btn-primary">Read more</button>
                     </div>
                     <div className="card-footer">
                         <small className="">Last updated 15 days ago</small>
@@ -94,7 +94,7 @@ const BlogPost = () => {
                     <div className="card-body">
                         <h5 className="card-title">Tech-RTM</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>
+                        <button type="button" class="btn btn-primary">Read more</button>
                     </div>
                     <div className="card-footer">
                         <small className="">Last updated 20 days ago</small>
@@ -108,7 +108,7 @@ const BlogPost = () => {
                     <div className="card-body">
                         <h5 className="card-title">Tech-SME</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>
+                        <button type="button" class="btn btn-primary">Read more</button>
                     </div>
                     <div className="card-footer">
                         <small className="">Last updated 1 month ago</small>
@@ -122,7 +122,7 @@ const BlogPost = () => {
                     <div className="card-body">
                         <h5 className="card-title">Enterprise</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>
+                        <button type="button" class="btn btn-primary">Read more</button>
                     </div>
                     <div className="card-footer">
                         <small className="">Last updated 3 months ago</small>
@@ -136,7 +136,7 @@ const BlogPost = () => {
                     <div className="card-body">
                         <h5 className="card-title">News Journal</h5>
                         <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <button type="button" class="btn btn-primary">Learn more</button>
+                        <button type="button" class="btn btn-primary">Read more</button>
                     </div>
                     <div className="card-footer">
                         <small className="">Last updated 5 months ago</small>
