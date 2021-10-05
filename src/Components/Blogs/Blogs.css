@@ -10,3 +10,11 @@
 .blogs{
     margin-bottom: 1000px;
 }
+.imge{
+    height: 200px;
+    width: 355px;
+    padding: 10px;
+}
+.card{
+    box-shadow: 2px 2px 3px gray;
+}
