@@ -38,12 +38,16 @@ const Left = (props) => {
     console.log(props.left);
     const {name, team, price, description, content} =  props.left;
     return (
-        <div className="serv">
-            <h2>Name: {name}</h2>
-            <p>Team: {team}</p>
-            <h5>Price: {price}</h5>
-            <p>Description: {description}</p>
-            <p>Content: {content}</p>
+        <div class="row row-cols-1 row-cols-md-2">
+            <div class="col g-3">
+                <div class="card none">
+                    <h2>{name}</h2>
+                    <p>Team: {team}</p>
+                    <h5>Price: {price}</h5>
+                    <p>Description: {description}</p>
+                    <p>Content: {content}</p>    
+                </div>
+            </div>
         </div>
     );
 };
