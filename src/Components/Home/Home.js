@@ -24,7 +24,7 @@ const Home = () => {
             <h1 className="text-center m-5">Our Services</h1>
             <Lefts></Lefts>
             <div>
-                <section className="py-5 text-center container">
+                <section className="text-center container">
                     <div className="row py-lg-5">
                         <div className="col-lg-6 col-md-8 mx-auto">
                             <h1>Our Work</h1>

@@ -38,9 +38,17 @@ const Left = (props) => {
     console.log(props.left);
     const {name, team, price, description, content} =  props.left;
     return (
-        <div class="row row-cols-1 row-cols-md-2">
-            <div class="col g-3">
-                <div class="card none">
+        
+        <div className="container">
+            <div className="row">
+                <div className="col g-3 mx-2 card none">
+                    <h2>{name}</h2>
+                    <p>Team: {team}</p>
+                    <h5>Price: {price}</h5>
+                    <p>Description: {description}</p>
+                    <p>Content: {content}</p>    
+                </div>
+                <div class="col g-3 mx-2 card none">
                     <h2>{name}</h2>
                     <p>Team: {team}</p>
                     <h5>Price: {price}</h5>
@@ -48,7 +56,7 @@ const Left = (props) => {
                     <p>Content: {content}</p>    
                 </div>
             </div>
-        </div>
+        </div> 
     );
 };
 
