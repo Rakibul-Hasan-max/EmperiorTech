@@ -4,16 +4,13 @@
     padding: 50px 200px;
 }
 .serv{
-    background-color: #eaeaeb;
-    display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    grid-gap: 15px;
+    background-color: #d0d0f3;
     padding: 20px;
     border: 1px solid gray;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
     box-shadow: 3px 3px 3px gray;
-    margin-top: 50px;
+    margin: 20px 200px;
 }
 .none{
     padding: 20px;

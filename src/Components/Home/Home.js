@@ -173,7 +173,7 @@ const Lefts = () => {
   return(
     <div className="left">
         {
-            lefts.map(left => <Left left={left} key={left.team}></Left>)
+            lefts.slice(0, 4).map(left => <Left left={left} key={left.team}></Left>)
         }
       
     </div>
@@ -194,7 +194,6 @@ const Left = (props) => {
         </div>
     );
 };
-
 
 
 export default Home;
