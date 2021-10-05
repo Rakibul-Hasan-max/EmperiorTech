@@ -24,6 +24,113 @@ const Home = () => {
             <h1 className="text-center m-5">Our Services</h1>
             <Lefts></Lefts>
             <div>
+                <section className="py-5 text-center container">
+                    <div className="row py-lg-5">
+                        <div className="col-lg-6 col-md-8 mx-auto">
+                            <h1>Our Work</h1>
+                            <p className="lead text-muted">Something short and leading about the collection below—its contents.</p>
+                            <p>
+                            <a href="#" className="btn btn-primary m-1">Leatest work</a>
+                            <a href="#" className="btn btn-secondary m-1">All work</a>
+                            <a href="#" className="btn btn-secondary m-1">Album</a>
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <div className="album py-5 bg-light">
+                    <div className="container">
+
+                    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div className="col">
+                            <div className="card shadow-sm">
+                                <img className="bd-placeholder-img card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0zrNcjROxOVj7Q9O6XbEra-hRvrV9u9pGZA&usqp=CAU" alt="" width="100%" height="250" />
+                                <div className="card-body">
+                                    <h4>UI/UX Design</h4>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div className="btn-group">
+                                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small className="text-muted">50 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card shadow-sm">
+                                <img className="bd-placeholder-img card-img-top" src="https://image.shutterstock.com/image-vector/landing-pages-templates-set-marketing-260nw-1286761903.jpg" alt="" width="100%" height="250" />
+                                <div className="card-body">
+                                    <h4>Graphic Design</h4>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div className="btn-group">
+                                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small className="text-muted">5 hours</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card shadow-sm">
+                                <img className="bd-placeholder-img card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1qPyrsxwuH0XGsipUbZLLArgo_x7y4Mel9Q&usqp=CAU" alt="" width="100%" height="250" />
+                                <div className="card-body">
+                                    <h4>WP-Website</h4>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div className="btn-group">
+                                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small className="text-muted">20 days</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card shadow-sm">
+                                <img className="bd-placeholder-img card-img-top" src="https://designshack.net/wp-content/uploads/Sooper-App-Software-Landing-Page-Template.jpg" alt="" width="100%" height="250" />
+                                <div className="card-body">
+                                    <h4>E-commerce</h4>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div className="btn-group">
+                                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small className="text-muted">28 days</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card shadow-sm">
+                                <img className="bd-placeholder-img card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu6OwhYyFG8qgE03DM1XA2feN43t9dTzpDRsCRfkzFQrc-u2abl4Q3yMn4KytcO2D3vFA&usqp=CAU" alt="" width="100%" height="250" />
+                                <div className="card-body">
+                                    <h4>Portfolio landing page</h4>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div className="btn-group">
+                                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small className="text-muted">2 months</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className="card shadow-sm">
+                                <img className="bd-placeholder-img card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg10__e54B8bPvGw2lDmD6swRipZ-cHwNOJQ&usqp=CAU" alt="" width="100%" height="250" />
+                                <div className="card-body">
+                                    <h4>Tech Website</h4>
+                                    <div className="d-flex justify-content-between align-items-center">
+                                        <div className="btn-group">
+                                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
+                                        </div>
+                                        <small className="text-muted">5 months</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div>
                 <div className="container marketing">
                     <h1 className="text-center mt-5 mb-5">Our Clients</h1>
                     <div className="row mb-5">
